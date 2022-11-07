@@ -1,0 +1,26 @@
+{
+  "name": "bear-beep",
+  "version": "1.0.0",
+  "description": "- 👋 Hi, I’m @bear-beep - 👀 I’m interested in ... - 🌱 I’m currently learning ... - 💞️ I’m looking to collaborate on ... - 📫 How to reach me ...",
+  "main": "index.js",
+  "scripts": {
+    "graph": "npx nv graph",
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bear-beep/bear-beep.git"
+  },
+  "author": "bear",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bear-beep/bear-beep/issues"
+  },
+  "homepage": "https://github.com/bear-beep/bear-beep#readme",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.0.1"
+  }
+}
