@@ -4,6 +4,11 @@
 #
 name: Deploy Next.js site to Pages
 
+uses: actions/setup-node@v2
+with:
+  node-version: 16.14.0
+  cache: "npm"
+
 on:
   # Runs on pushes targeting the default branch
   push:
